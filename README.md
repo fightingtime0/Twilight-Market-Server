@@ -9,46 +9,31 @@ Twilight Project is a curated Minecraft modpack designed to offer a gameplay exp
 **Key Features**
 
 A unique selection of mods tailored for the Twilight Market community.
-
 Active maintenance and updates based on community feedback.
-
 A blend of magic, technology, and exploration mods for relaxing and adventuring.
 
 **Getting Started**
 
 Prerequisites
-
 Minecraft 1.20.1 Java Edition Forge 
-
 A modded launcher such as CurseForge, MultiMC, or ATLauncher.
-
 Installation Instructions
 
 Download the Modpack:
-
 [link]
-
 Install the Modpack:
-
 Open your preferred launcher.
+Import the modpack ZIP file or search for "Twilight Project".
 
-Import the modpack ZIP file or search for "Twilight Project" if it’s hosted online.
-
-
-Mod List
-
-Coming Soon.
-
+_Mod List_
+_Coming Soon._
 
 
 **A big thank you to:**
 
 The Twilight Market community for their support and feedback.
-
 Mod developers for creating the amazing mods that make this project possible.
-
 Everyone who has contributed to this project!
 
-Enjoy the adventure and happy crafting!
-
+**Enjoy the adventure and happy crafting!**
 _- The Twilight Project Team_
