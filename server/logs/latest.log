@@ -1,0 +1,152 @@
+[23Feb2025 18:27:06.859] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[23Feb2025 18:27:06.864] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 20.0.2 by Oracle Corporation; OS Linux arch aarch64 version 5.15.0-304.171.4.el8uek.aarch64
+[23Feb2025 18:27:06.976] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[23Feb2025 18:27:07.026] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/opc/twilight-project/Twilight-Market-Server/server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[23Feb2025 18:27:07.214] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/opc/twilight-project/Twilight-Market-Server/server/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.0/fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[23Feb2025 18:27:07.215] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/opc/twilight-project/Twilight-Market-Server/server/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.0/javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[23Feb2025 18:27:07.217] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/opc/twilight-project/Twilight-Market-Server/server/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.0/lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[23Feb2025 18:27:07.218] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/opc/twilight-project/Twilight-Market-Server/server/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.0/mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[23Feb2025 18:27:07.312] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[23Feb2025 18:27:08.373] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[23Feb2025 18:27:13.533] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[23Feb2025 18:27:13.536] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[23Feb2025 18:27:14.173] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[23Feb2025 18:27:15.202] [main/ERROR] [net.minecraft.server.dedicated.Settings/]: Failed to load properties from file: server.properties
+java.nio.file.NoSuchFileException: server.properties
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:431) ~[?:?]
+	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422) ~[?:?]
+	at java.nio.file.Files.newInputStream(Files.java:159) ~[?:?]
+	at net.minecraft.server.dedicated.Settings.m_139839_(Settings.java:36) ~[server-1.20.1-20230612.114412-srg.jar%23101!/:?]
+	at net.minecraft.server.dedicated.DedicatedServerProperties.m_180929_(DedicatedServerProperties.java:137) ~[server-1.20.1-20230612.114412-srg.jar%23101!/:?]
+	at net.minecraft.server.dedicated.DedicatedServerSettings.<init>(DedicatedServerSettings.java:12) ~[server-1.20.1-20230612.114412-srg.jar%23101!/:?]
+	at net.minecraft.server.Main.main(Main.java:126) ~[server-1.20.1-20230612.114412-srg.jar%23101!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[23Feb2025 18:27:15.234] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23Feb2025 18:27:15.274] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/opc/twilight-project/Twilight-Market-Server/server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/assets/.mcassetsroot' uses unexpected schema
+[23Feb2025 18:27:15.275] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/opc/twilight-project/Twilight-Market-Server/server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23101!/data/.mcassetsroot' uses unexpected schema
+[23Feb2025 18:27:15.325] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.3.0 Target: null
+[23Feb2025 18:27:16.757] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[23Feb2025 18:27:16.905] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[23Feb2025 18:27:17.540] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[23Feb2025 18:27:17.541] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[23Feb2025 18:27:17.541] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[23Feb2025 18:27:17.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[23Feb2025 18:27:17.662] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[23Feb2025 18:27:17.688] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[23Feb2025 18:27:17.804] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
+[23Feb2025 18:27:17.808] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Feb2025 18:27:17.810] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[23Feb2025 18:27:17.811] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[23Feb2025 18:27:17.812] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[23Feb2025 18:27:17.813] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[23Feb2025 18:27:17.813] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[23Feb2025 18:27:17.814] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[23Feb2025 18:27:17.815] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[23Feb2025 18:27:17.871] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[23Feb2025 18:27:23.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[23Feb2025 18:27:23.848] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Feb2025 18:27:23.849] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Feb2025 18:27:24.268] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Feb2025 18:27:24.801] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Feb2025 18:27:25.268] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Feb2025 18:27:25.768] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[23Feb2025 18:27:26.266] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[23Feb2025 18:27:26.770] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[23Feb2025 18:27:27.265] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[23Feb2025 18:27:27.779] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[23Feb2025 18:27:28.266] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[23Feb2025 18:27:28.767] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
+[23Feb2025 18:27:29.267] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[23Feb2025 18:27:29.813] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
+[23Feb2025 18:27:30.274] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
+[23Feb2025 18:27:30.766] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
+[23Feb2025 18:27:31.270] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[23Feb2025 18:27:31.767] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 17%
+[23Feb2025 18:27:32.266] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 19%
+[23Feb2025 18:27:32.767] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[23Feb2025 18:27:33.271] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[23Feb2025 18:27:33.768] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[23Feb2025 18:27:34.271] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
+[23Feb2025 18:27:34.801] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 30%
+[23Feb2025 18:27:35.334] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[23Feb2025 18:27:35.766] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
+[23Feb2025 18:27:36.433] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 35%
+[23Feb2025 18:27:36.768] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
+[23Feb2025 18:27:37.275] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 40%
+[23Feb2025 18:27:37.768] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[23Feb2025 18:27:38.275] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 43%
+[23Feb2025 18:27:38.777] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
+[23Feb2025 18:27:39.270] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 47%
+[23Feb2025 18:27:39.771] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 49%
+[23Feb2025 18:27:40.272] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 52%
+[23Feb2025 18:27:40.791] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
+[23Feb2025 18:27:41.306] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
+[23Feb2025 18:27:41.775] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
+[23Feb2025 18:27:42.277] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 61%
+[23Feb2025 18:27:42.790] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
+[23Feb2025 18:27:43.291] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 66%
+[23Feb2025 18:27:43.826] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[23Feb2025 18:27:44.304] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
+[23Feb2025 18:27:44.766] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
+[23Feb2025 18:27:45.268] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
+[23Feb2025 18:27:45.770] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 77%
+[23Feb2025 18:27:46.273] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 80%
+[23Feb2025 18:27:46.833] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[23Feb2025 18:27:47.273] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[23Feb2025 18:27:47.768] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
+[23Feb2025 18:27:48.271] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[23Feb2025 18:27:48.770] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
+[23Feb2025 18:27:49.266] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 94%
+[23Feb2025 18:27:50.175] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 95%
+[23Feb2025 18:27:50.274] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 95%
+[23Feb2025 18:27:50.766] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 98%
+[23Feb2025 18:27:50.963] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 27698 ms
+[23Feb2025 18:27:50.964] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (33.169s)! For help, type "help"
+[23Feb2025 18:27:50.982] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[23Feb2025 18:35:52.668] [Server console handler/ERROR] [net.minecraft.server.dedicated.DedicatedServer/]: Caught previously unhandled exception :
+java.io.IOError: java.io.IOException: Input/output error
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:143) ~[jline-reader-3.12.1.jar%2363!/:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[jline-reader-3.12.1.jar%2363!/:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61) ~[jline-reader-3.12.1.jar%2363!/:?]
+	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:848) ~[jline-reader-3.12.1.jar%2363!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:868) ~[jline-reader-3.12.1.jar%2363!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:575) ~[jline-reader-3.12.1.jar%2363!/:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:418) ~[jline-reader-3.12.1.jar%2363!/:?]
+	at net.minecraftforge.server.console.TerminalHandler.handleCommands(TerminalHandler.java:46) ~[forge-1.20.1-47.3.0-universal.jar%23106!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23101!/:?]
+Caused by: java.io.IOException: Input/output error
+	at java.io.FileInputStream.read0(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:237) ~[?:?]
+	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73) ~[jline-terminal-3.12.1.jar%2364!/:?]
+	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62) ~[jline-terminal-3.12.1.jar%2364!/:?]
+	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168) ~[jline-terminal-3.12.1.jar%2364!/:?]
+	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57) ~[jline-terminal-3.12.1.jar%2364!/:?]
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:133) ~[jline-reader-3.12.1.jar%2363!/:?]
+	... 8 more
+[23Feb2025 18:35:52.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[23Feb2025 18:35:52.689] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[23Feb2025 18:35:52.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[23Feb2025 18:35:54.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23Feb2025 18:35:56.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23Feb2025 18:35:56.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23Feb2025 18:35:56.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23Feb2025 18:35:56.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23Feb2025 18:35:56.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23Feb2025 18:35:56.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
