@@ -1,7 +1,5 @@
 
-<div align="center">
-# **Twilight Project Modpack Repository**
-</div>
+# Twilight Project Modpack Repository
 
 ![image](https://github.com/user-attachments/assets/1a31cc71-d9e9-4c2f-9312-159d2061f52a)
 
