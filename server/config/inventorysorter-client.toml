@@ -1,0 +1,9 @@
+
+#Inventory sorter
+[sortingRules]
+	#Sort order
+	#Allowed Values: QUARK, CREATIVE, ITEM_ID, ITEM_NAME, DISPLAY_NAME
+	sortOrder = "ITEM_ID"
+	#Sort by count first
+	sortByCountFirst = false
+

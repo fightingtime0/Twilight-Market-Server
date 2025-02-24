@@ -1,0 +1,260 @@
+{
+	autofocus_id: "1FA7619C9133788C"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "starting_point"
+	group: "26347E9E8B80202E"
+	icon: "minecraft:grass_block"
+	id: "14F4535D2281C39B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Just another casual day in this plain, old world."
+				""
+				"&lWhat will you do?&r"
+			]
+			id: "158C9923DC8DF01B"
+			progression_mode: "linear"
+			rewards: [{
+				id: "52B8A4214D0451D1"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			subtitle: "Welcoming A New World"
+			tasks: [{
+				id: "62C6C421F66B34F8"
+				title: "Welcome to a new world."
+				type: "checkmark"
+			}]
+			title: "A New World"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["158C9923DC8DF01B"]
+			description: [
+				"You began to see upon a vision."
+				""
+				"A vision of something... familiar."
+				""
+				"In that vision, you saw yourself, but not &oyou&r."
+				"{@pagebreak}"
+				"You sit on the throne, an orb in your hands with a desperate wish for revival."
+				""
+				"You face someone, your last fight... against &chim&r."
+				""
+				"The fight goes on and on, until..."
+				"&lyou're back in this world&r."
+			]
+			hide_until_deps_complete: true
+			id: "1FA7619C9133788C"
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "67E9685B84A1E1C2"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					id: "3D33C9D4E6A98ADB"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					id: "2D0C6981FF43CE4B"
+					item: "minecraft:warped_roots"
+					type: "item"
+				}
+			]
+			subtitle: "The New Start, Electric Bugaloo."
+			tasks: [{
+				id: "2EBD1EBCB48A04A5"
+				item: "minecraft:red_bed"
+				type: "item"
+			}]
+			title: "Unwavering Memory"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1FA7619C9133788C"]
+			description: [
+				"You found this treasure chest and its loots intrigue you."
+				""
+				"You find yourself enamored. And &opissed&r, at yourself."
+				""
+				"&lWhy would you want to resurrect yourself in a new body?&r"
+				""
+				"You had all the golds and loots you'll ever want before this..."
+			]
+			hide_until_deps_visible: true
+			id: "4834592024C558B0"
+			rewards: [{
+				count: 3
+				id: "3EE6B3FE0C450FA0"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "I shall build up from zero again."
+			tasks: [{
+				advancement: "lootr:1chest"
+				criterion: ""
+				id: "6FC86A8F117E3E0E"
+				title: "The First Treasure Chest"
+				type: "advancement"
+			}]
+			title: "One Gold At A Time..."
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1FA7619C9133788C"]
+			description: [
+				"As you hear the blood drip and feel the splatter on your face, all of it feels so..."
+				""
+				"Nostalgic."
+				""
+				"As if you were born into this world with violence coursing through your veins."
+				""
+				"You love it."
+				"{@pagebreak}"
+				"As you loot your first kill, you find a rusty Bastard Sword."
+				""
+				"You decided to keep it, &ojust in case&r."
+			]
+			hide_until_deps_visible: true
+			id: "1ED5733F698F3EA8"
+			rewards: [{
+				id: "7C506397843A8B40"
+				item: {
+					Count: 1
+					id: "magistuarmory:rusted_bastardsword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "With a boiling bloodlust, I shall climb back up my throne."
+			tasks: [{
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+				id: "49C0ED7325219A7D"
+				title: "The First Blood"
+				type: "advancement"
+			}]
+			title: "The First Blood"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1ED5733F698F3EA8"]
+			description: [
+				"The scent of this dimension smells so... remorseful."
+				""
+				"You can feel tears falling down your cheeks."
+				""
+				"You remembered &lthat dream&r."
+				"{@pagebreak}"
+				"The Twilight Dimension..."
+				""
+				"&oThe earth you were born from&r."
+				""
+				"Your death as the world's tyrant lingers, but you shake it off."
+				""
+				"It's time to give yourself the revenge you have been waiting for."
+				""
+				"Against &4him&r."
+			]
+			hide_until_deps_complete: true
+			id: "13B30B8132CBB87A"
+			rewards: [{
+				id: "3F00A130B0599024"
+				type: "xp"
+				xp: 300
+			}]
+			subtitle: "Here, I return to the earth that I was born from."
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "2AEA62DCF8B4A0FD"
+				title: "A Twilight's Spark"
+				type: "dimension"
+			}]
+			title: "First Step to Throne Reclamation"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1ED5733F698F3EA8"]
+			description: [
+				"Armor made of the most precious of diamonds..."
+				""
+				"Weeks upon weeks of mining in various caves to get yourself this one set."
+				""
+				"It might take time to return back to your prime, but..."
+				"{@pagebreak}"
+				"This will do."
+				""
+				"."
+				"."
+				"."
+				""
+				"&o&4For Now.&r&r"
+			]
+			hide_until_deps_visible: true
+			id: "0B12443AF45CAFAC"
+			rewards: [{
+				id: "28B0D7DD2A74E65D"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			subtitle: "This is a restart of my villain arc. "
+			tasks: [{
+				advancement: "minecraft:story/shiny_gear"
+				criterion: ""
+				id: "7530FABB5F059E29"
+				title: "The Shiny Armors"
+				type: "advancement"
+			}]
+			title: "Preparations of War"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["158C9923DC8DF01B"]
+			description: [
+				"You reached the end of the journey."
+				""
+				"You feel the grip on the end."
+				""
+				"It is the final time you will feel the peace and calm of the world."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&4It's time for The End to embrace you with open mouth."
+			]
+			id: "68C665D088EA6038"
+			rewards: [{
+				id: "69863A3F6155A3A0"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			subtitle: "It's just me and the dragon."
+			tasks: [{
+				id: "0F3021B490B96392"
+				structure: "minecraft:fortress"
+				type: "structure"
+			}]
+			title: "The Final Showdown"
+			x: 2.0d
+			y: -4.0d
+		}
+	]
+	title: "A New World"
+}

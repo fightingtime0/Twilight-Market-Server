@@ -1,0 +1,16 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hexerei"
+	group: "0555C840C026823D"
+	icon: {
+		Count: 1
+		id: "hexerei:book_of_shadows"
+		tag: { }
+	}
+	id: "0E05299A3CF8AC12"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Hexerei"
+}

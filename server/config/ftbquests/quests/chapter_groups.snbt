@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "26347E9E8B80202E", title: "Starter" }
+		{ id: "5B41F9137E52E63B", title: "Exploration and Adventure" }
+		{ id: "0555C840C026823D", title: "Magic" }
+		{ id: "5B31DEC4C47DE387", title: "Energy" }
+		{ id: "087576FAECF1D8CF", title: "Armory \\& Weaponry" }
+	]
+}

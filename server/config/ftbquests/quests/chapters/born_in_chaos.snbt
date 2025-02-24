@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "born_in_chaos"
+	group: "5B41F9137E52E63B"
+	icon: "born_in_chaos_v1:nightmare_stalker_skull"
+	id: "77E9D9B8573AF975"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Born In Chaos"
+}

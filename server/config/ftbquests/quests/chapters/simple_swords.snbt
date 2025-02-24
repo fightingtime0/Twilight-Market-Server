@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "simple_swords"
+	group: "087576FAECF1D8CF"
+	id: "0E68E6545694172D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Simple Swords"
+}

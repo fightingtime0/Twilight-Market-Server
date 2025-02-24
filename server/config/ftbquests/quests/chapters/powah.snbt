@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah"
+	group: "5B31DEC4C47DE387"
+	icon: "alexscaves:uranium_rod"
+	id: "0A01BAF10D603FB6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Powah"
+}

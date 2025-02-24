@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_underground"
+	group: "26347E9E8B80202E"
+	icon: "minecraft:bedrock"
+	id: "7B08B94FFC984171"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "The Underground"
+}

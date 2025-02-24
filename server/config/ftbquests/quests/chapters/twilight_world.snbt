@@ -1,0 +1,53 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "twilight_world"
+	group: "26347E9E8B80202E"
+	id: "06B161F9847C45DF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["13B30B8132CBB87A"]
+		description: [
+			"The first death inside your own world..."
+			""
+			"You start to want more.. More blood..."
+			""
+			"More sacrifices..."
+			""
+			"All for you to go back to your throne."
+			""
+			"You soon realize the creature you've killed carried an empty spellbook."
+			""
+			"You decided to hold onto it."
+		]
+		id: "3E642842BA605D02"
+		rewards: [{
+			id: "70AFD8A9A985E831"
+			item: {
+				Count: 1
+				id: "irons_spellbooks:copper_spell_book"
+				tag: {
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 5
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			type: "item"
+		}]
+		subtitle: "The Old, yet New Way of Living."
+		tasks: [{
+			advancement: "twilightforest:twilight_hunter"
+			criterion: ""
+			id: "0460DA8212E00514"
+			title: "The Beginnings"
+			type: "advancement"
+		}]
+		x: 1.5d
+		y: -0.5d
+	}]
+	title: "Twilight World"
+}

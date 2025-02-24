@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: "26347E9E8B80202E"
+	icon: "minecraft:obsidian"
+	id: "2F50E25A29A0306E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Nether"
+}

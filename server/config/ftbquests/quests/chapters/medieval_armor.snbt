@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "medieval_armor"
+	group: "087576FAECF1D8CF"
+	id: "200750950193D792"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+	title: "Medieval Armor"
+}

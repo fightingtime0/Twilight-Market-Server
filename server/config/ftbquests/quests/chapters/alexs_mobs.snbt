@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alexs_mobs"
+	group: "5B41F9137E52E63B"
+	icon: "alexsmobs:animal_dictionary"
+	id: "25296DC24063C7A3"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Alex's Mobs"
+}

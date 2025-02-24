@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "5B31DEC4C47DE387"
+	icon: "create:cogwheel"
+	id: "4758F69908E3F71F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Create"
+}

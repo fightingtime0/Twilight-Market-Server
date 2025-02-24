@@ -1,0 +1,45 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "a_certain_bird_friend"
+	group: "5B41F9137E52E63B"
+	icon: "chococraft:chocobo_feather"
+	id: "4018FB77E620AD7E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"Upon exploring, you meet a certain feathered creature."
+			""
+			"This create seemed to be called &6\"Chocobo\"."
+			""
+			"Each of them seems to be travelling in pairs."
+			""
+			"{@pagebreak}"
+			""
+			"In the hope you gain a faster way to explore..."
+			""
+			"You decided to try to tame one out."
+		]
+		id: "105C7D052A39BF48"
+		rewards: [{
+			count: 6
+			id: "10C591A227CD33DD"
+			item: "chococraft:gysahl_green"
+			type: "item"
+		}]
+		subtitle: "Horses seems a bit lame now."
+		tasks: [{
+			icon: "chococraft:chocobo_feather"
+			id: "3DDE565E39146A94"
+			observe_type: 0
+			timer: 0L
+			to_observe: "chococraft:chocobo"
+			type: "observation"
+		}]
+		title: "A Certain Feathered Friend"
+		x: -1.5d
+		y: -1.5d
+	}]
+	title: "Chococraft"
+}

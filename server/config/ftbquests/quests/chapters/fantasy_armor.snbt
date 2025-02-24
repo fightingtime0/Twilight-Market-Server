@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fantasy_armor"
+	group: "087576FAECF1D8CF"
+	id: "78D7A9490F82E16C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Fantasy Armor"
+}
