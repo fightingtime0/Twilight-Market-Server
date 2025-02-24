@@ -1,4 +1,5 @@
 **Twilight Project Modpack Repository**
+![image](https://github.com/user-attachments/assets/1a31cc71-d9e9-4c2f-9312-159d2061f52a)
 
 Welcome to the official repository for Twilight Project, a custom modpack created for the Twilight Market Discord server! This repository contains everything you need to set up and enjoy our unique Minecraft experience.
 
